@@ -5,6 +5,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material3.*
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -57,6 +58,7 @@ import kotlinx.coroutines.launch
  * the app is backgrounded). Collection resumes when the app returns to
  * foreground. This is the recommended pattern for all production Compose apps.
  */
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun TransactionScreen(
     viewModel: TransactionViewModel = viewModel()
