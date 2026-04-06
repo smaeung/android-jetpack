@@ -1,5 +1,7 @@
 # High-Performance Android Transaction UI
 
+**Author:** [Sungho Maeung](https://github.com/smaeung) — see [CONTRIBUTORS.md](CONTRIBUTORS.md)
+
 A complete Android sample app demonstrating **five production-grade patterns** for handling high-frequency concurrent data in Jetpack Compose — without UI jank, race conditions, or memory pressure.
 
 The app simulates a payment terminal receiving ~333 transactions per second, rendering them live in a scrollable list with real-time status updates.
