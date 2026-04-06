@@ -8,6 +8,14 @@ The app simulates a payment terminal receiving ~333 transactions per second, ren
 
 ---
 
+## Screenshot
+
+![HP Transactions running on Pixel 7 API 36 emulator](docs/screenshots/transaction_feed.png)
+
+*500 transactions processed, 5/5 network slots active, live feed scrolling at ~333 tx/sec on a Pixel 7 API 36 emulator.*
+
+---
+
 ## Contents
 
 - [Why This Exists](#why-this-exists)
